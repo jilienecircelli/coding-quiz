@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Quiz Time</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Title and header of page -->
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Score</span>
+            <span class="navbar-brand mb-0 h1"></span>
+            <span class="navbar-brand mb-0 h1">Timer</span>
+        </nav>
+
+        <div class="row">
+            <!-- Score will reside here -->
+            <div class="col-lg-2">
+                <div id="highscore">
+                </div>
+            </div>
+            <div class="col-lg-8"></div>
+            <!-- Timer will reside here -->
+            <div class="col-lg-2">
+                <div id="timer">
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- All quiz content will reside here -->
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+
+
+                <div id="game" class="justify-center flex-column">
+                    <h2 id="question">What is the answer to this question?</h2>
+                    <div class="choice-container">
+                        <hr>
+
+                        <p class="choice-text" data-number="1">Choice 1</p>
+                    </div>
+
+                    <div class="choice-container">
+
+                        <p class="choice-text" data-number="2">Choice 2</p>
+                    </div>
+
+                    <div class="choice-container">
+
+                        <p class="choice-text" data-number="3">Choice 3</p>
+                    </div>
+
+                    <div class="choice-container">
+
+                        <p class="choice-text" data-number="4">Choice 4</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-2">
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+
+</body>
+
+</html>

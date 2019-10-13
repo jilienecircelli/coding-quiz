@@ -1,0 +1,61 @@
+ .timer {
+     align-content: right;
+ }
+ 
+ #timer {
+     text-align: center;
+ }
+ 
+ #highscore {
+     text-align: center;
+ }
+ 
+ .welcome-msg {
+     text-align: center;
+ }
+ /*  */
+ 
+ h1 {
+     text-align: center;
+ }
+ /* Buttons */
+ 
+ button.start-quiz,
+ button.view-highscores,
+ button.go-back-btn,
+ button.clear-highscores,
+ button.submit-initials-btn {
+     background-color: #9932cc;
+     color: white;
+     font-weight: bold;
+     border: 2px #9932cc solid;
+     border-radius: 60px;
+     width: auto;
+     height: 40px;
+     align-content: center;
+ }
+ 
+ button.view-highscores {
+     float: right;
+ }
+ 
+ button:hover {
+     background-color: transparent;
+     color: #9932cc;
+ }
+ 
+ p.choice-text {
+     background-color: #9932cc;
+     color: white;
+     font-weight: bold;
+     border: 2px #9932cc solid;
+     border-radius: 60px;
+     width: 200px;
+     height: 35px;
+     text-align: center;
+ }
+ 
+ p.choice-text:hover {
+     background-color: transparent;
+     color: #9932cc;
+ }

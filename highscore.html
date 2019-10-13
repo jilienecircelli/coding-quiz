@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Highscores</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Title and header of page -->
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1"></span>
+            <span class="navbar-brand mb-0 h1"></span>
+            <span class="navbar-brand mb-0 h1"></span>
+        </nav>
+
+        <div class="row">
+            <!-- Score will reside here -->
+            <div class="col-lg-2">
+                <div id="highscore">
+                </div>
+            </div>
+            <div class="col-lg-8"></div>
+            <!-- Timer will reside here -->
+            <div class="col-lg-2">
+                <div id="timer">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- All quiz content will reside here -->
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <div class="highscore-container">
+                    <h1>Highscores</h1>
+                    <hr>
+                    <p>Your final score is <span id="highScores"></span> </p>
+                    <br>
+                    <p>Enter Initials:
+                        <input type="text" id="initials">
+                        <button type="button" class="submit-initials-btn">Submit</button></p>
+                    <br>
+                    <button type="button" class="go-back-btn">Go Back</button>
+                    <button type="button" class="clear-highscores">Clear
+                        Highscores</button>
+                </div>
+
+            </div>
+        </div>
+        <div class=" col-lg-2 ">
+        </div>
+    </div>
+    </div>
+    <script src="highscore.js"></script>
+</body>
+
+</html>
